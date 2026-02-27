@@ -45,15 +45,18 @@
             }
         },
        {
-      "key": "浪酷搜搜",
+      "key": "假段友get",
       "name": "🏄‍♂️浪酷┃旭叔",
       "type": 3,
-      "api": "csp_AppFox",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.zjcvod.com"
-    }, 
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://shangjihuoke.com",
+        "dataKey": "8E2DC386FD452D05",
+        "dataIv": "8E2DC386FD452D05"
+      }
+    },
     {
             "key": "金牌影视",
             "name": "🥇金牌┃旭叔",
@@ -62,13 +65,17 @@
             "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
         },
         {
-      "key": "苹果影视",
+      "key": "秒看",
       "name": "🍎苹果┃旭叔",
       "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "api": "csp_AppGet",
+      "ext": {
+        "site": "https://mk1080.top/get.txt",
+        "dataKey": "c60d88b2eep53za8",
+        "dataIv": "c60d88b2eep53za8",
+        "token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa",
+        "ua": "okhttp/3.14.9"
+      }
     },
     {
       "key": "瓜子影视",
@@ -214,33 +221,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "ext": "http://m51.gotto.top/api.php/v1.vod"
-    },
-    {
-      "key": "藤藤",
-      "name": "⛅腾讯┃旭叔",
-      "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./XBPQ/藤藤.png"
-    },
-    {
-      "key": "茫茫",
-      "name": "🥭芒果┃旭叔",
-      "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./XBPQ/茫茫.png"
-    },
-    {
-      "key": "秒看",
-      "name": "🌅晴天┃旭叔",
-      "type": 3,
-      "api": "csp_AppGet",
-      "ext": {
-        "site": "https://mk1080.top/get.txt",
-        "dataKey": "c60d88b2eep53za8",
-        "dataIv": "c60d88b2eep53za8",
-        "token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa",
-        "ua": "okhttp/3.14.9"
-      }
     },
     {
       "key": "小斑快映",
@@ -1201,6 +1181,7 @@
     ]
 
 }
+
 
 
 
