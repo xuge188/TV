@@ -370,11 +370,21 @@
             "changeable": 0
         },
         {
-            "key": "兄弟",
+            "key": "趣盘社",
             "name": "🎯佰渡┃旭叔",
             "type": 3,
-            "api": "csp_XiongDiPan",
-            "changeable": 0
+            "api": "csp_PanWebQu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": {
+                "url": "https://www.qupanshe.com"
+            }
         },
         {
       "key": "音海渡娘",
