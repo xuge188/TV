@@ -1,7 +1,7 @@
 {
     "spider": "./spider.jar",
     "wallpaper": "https://i0.hdslb.com/bfs/new_dyn/d512eadb60be5cf999b0df5074260ece522628429.jpg@.webp",
-    "logo": "https://i0.hdslb.com/bfs/new_dyn/ee2fd2ef029542ebb4eb102e4ae48a2a1083307557.gif",
+    "logo": "https://i0.hdslb.com/bfs/new_dyn/4870f78c8757be6d9ab2614999b0eff61083307557.gif",
     "sites": [
         {
             "key": "豆瓣",
@@ -59,11 +59,14 @@
             "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
         },
         {
-            "key": "皮虾",
+            "key": "枫叶",
             "name": "🍎苹果┃旭叔",
             "type": 3,
-            "api": "./py/皮虾.py",
-            "ext": "http://154.94.224.98:8762"
+            "api": "./py/枫叶.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1
         },
         {
             "key": "瓜子",
@@ -103,14 +106,11 @@
             "ext": "./XBPQ/农民.json"
         },
         {
-            "key": "枫叶",
-            "name": "🕵️‍♂️好人┃旭叔",
+            "key": "荐片",
+            "name": "🕵️‍♂️荐片┃旭叔",
             "type": 3,
-            "api": "./py/枫叶.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1
+            "api": "./js/jianpian.js",
+            "ext": ""
         },
         {
             "key": "暴风",
@@ -473,35 +473,6 @@
             "type": 3,
             "api": "csp_TianYiSo",
             "changeable": 0
-        },
-        {
-            "key": "荐片",
-            "name": "🧲荐片┃旭叔",
-            "api": "csp_Jianpian",
-            "changeable": 0,
-            "type": 3,
-            "ext": "https://api.ztcgi.com"
-        },
-        {
-            "key": "天堂",
-            "name": "🧲天堂┃旭叔",
-            "type": 3,
-            "api": "csp_DyGod",
-            "changeable": 0,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "80S",
-            "name": "🧲狐狸┃旭叔",
-            "type": 3,
-            "api": "csp_BLSGod",
-            "changeable": 0,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "哔哩哔哩戏曲",
