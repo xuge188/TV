@@ -1,7 +1,7 @@
 {
-    "spider": "./spider.jar;md5;ff817791ea3df598751d6b5fe949c7f9",
+    "spider": "./spider.jar",
     "wallpaper": "https://i0.hdslb.com/bfs/new_dyn/d512eadb60be5cf999b0df5074260ece522628429.jpg@.webp",
-    "logo": "https://i0.hdslb.com/bfs/new_dyn/ee2fd2ef029542ebb4eb102e4ae48a2a1083307557.gif",
+    "logo": "https://i0.hdslb.com/bfs/new_dyn/4870f78c8757be6d9ab2614999b0eff61083307557.gif",
     "sites": [
         {
             "key": "豆瓣",
@@ -439,7 +439,7 @@
             "key": "123",
             "name": "⛔二三┃旭叔",
             "type": 3,
-            "api": "csp_PanWebShareCloud123",
+            "api": "csp_PanWebShareCloud12345",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
